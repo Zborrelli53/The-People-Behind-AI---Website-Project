@@ -57,10 +57,15 @@ img {
 
 /*----------------- Header & Navigation --------------------*/
 .site-header {
-    position: sticky;
+    position: sticky; /* header stays at the top while scrolling */
+    top: 0;
+    z-index: 10;
+    height: var(--header-height);
+    background-color: var(--ink);
     display: flex;
-    justify-content: space-between;
-    background-color: var(--crimson);
+    justify-content: space-between; /* logo left, nav right */
+    align-items: center; /* vertically centered */
+    padding: 0 1.5rem;
 }
 .main-nav ul {
     list-style: none;
