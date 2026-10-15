@@ -4,6 +4,7 @@
     --dark-cyan: #005b69;
     --crimson: #8a0000;
     --dark-crimson: #460000;
+    --line: #d3dde5;
     --gold: #ffd500;
     --ink: #172b4a;
     --white: #ffffff;
@@ -55,13 +56,24 @@ img {
     display: block;
 }
 
+main section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
 /*----------------- Header & Navigation --------------------*/
 .site-header {
     position: sticky; /* header stays at the top while scrolling */
     top: 0;
     z-index: 10;
     height: var(--header-height);
-    background-color: var(--ink);
+    background-color: var(--crimson);
     display: flex;
     justify-content: space-between; /* logo left, nav right */
     align-items: center; /* vertically centered */
@@ -84,3 +96,37 @@ img {
     background-color: rgba(255,255,255, 0.1);
 }
 
+/* ============= Site Introduciton ===========*/
+
+.site-intro {
+    font-family: var(--font-head);
+}
+
+.site-intro p{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.site-intro {
+    border-bottom: 1px solid var(--line);
+}
+
+/* ============ INTRODUCTION TO THE AI DOCUMENTARY============ */
+.intro {
+    font-family: var(--font-body);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.intro-info1 {
+    
+}
+
+.intro-info-2 {
+    
+}
+
+.intro p {
+    
+}
