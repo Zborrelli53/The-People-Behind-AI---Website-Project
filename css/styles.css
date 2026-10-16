@@ -126,14 +126,12 @@ main h2 {
     gap: 2rem;
 }
 
-.intro-info h3 {
-    height: 90px;
-    align-items: center;
-    font-family: var(--font-body);
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 1rem;
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
 }
+
 
 .intro-text {
     font-family: var(--font-body);
@@ -146,6 +144,29 @@ main h2 {
     text-decoration: none;
     margin-bottom: 1rem;
     font-family: var(--font-body);
+}
+
+.definition {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.definition h3{
+
+}
+
+
+.definition p {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 1rem;
+
+}
+
+.intro-poster img {
+    margin-bottom: 0.75rem;
 }
 
 /* Next To add: Image Box Office Image of the documentary */
