@@ -152,9 +152,6 @@ main h2 {
     line-height: 1.5rem;
 }
 
-.definition h3{
-
-}
 
 
 .definition p {
@@ -167,6 +164,10 @@ main h2 {
 
 .intro-poster img {
     margin-bottom: 0.75rem;
+}
+
+.intro {
+    border-bottom: 3px solid var(--line);
 }
 
 /* Next To add: Image Box Office Image of the documentary */
