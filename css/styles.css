@@ -183,7 +183,7 @@ main h2 {
 }
 
 .card {
-    background-color: var(--white);
+    background-color: var(--ink);
     border-radius: 10px;
     overflow: hidden;
 
@@ -202,3 +202,23 @@ main h2 {
     color: var(--ink);
     margin: 1rem;
 }
+
+
+.profile-header {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+
+.expert-photo {
+    width: 200px;
+    height: 200px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
