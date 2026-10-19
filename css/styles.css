@@ -184,7 +184,6 @@ main h2 {
 
 .card {
     background-color: var(--white);
-    border: 1px solid var(--line);
     border-radius: 10px;
     overflow: hidden;
 
