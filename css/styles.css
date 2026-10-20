@@ -177,9 +177,13 @@ main h2 {
 /* --------------- 2. Expert Profiles --------------- */
 
 
+.profile {
+    border-bottom: 2px solid var(--line);
+}
+
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
 
@@ -207,7 +211,7 @@ main h2 {
     background-color: #000b44;
 }
 
-.elizer {
+.eliezer {
     background-color: #440900;
 }
 
