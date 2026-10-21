@@ -2,8 +2,8 @@
 
     --cyan: #00cae9;
     --dark-cyan: #005b69;
-    --crimson: #8a0000;
-    --dark-crimson: #460000;
+    --blue: #1a36bf;
+    --dark-blue: #000b44;
     --line: #d3dde5;
     --gold: #ffd500;
     --ink: #172b4a;
@@ -259,3 +259,38 @@ main h2 {
     flex-grow: 1;
 }
 
+
+/* -------------------------- COMPARISON (HTML TABLE) ------------------------------ */
+
+.expert-comp {
+    padding: 3rem;
+    margin: 2rem;
+    border-collapse: collapse;
+    background-color: var(--white);
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.expert-comp th, 
+.expert-comp td{
+    padding: 10px 12px;
+    text-align: center;
+    border: none;
+    font-weight: 200px;
+    font-family: var(--font-body);
+}
+
+.category {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    font-family: var(--font-body);
+}
+
+.disagree {
+
+}
+
+.agree {
+
+}
