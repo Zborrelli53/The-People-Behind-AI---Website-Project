@@ -10,6 +10,7 @@
     --ink-soft: #4a5d75;
     --white: #ffffff;
     --paper: #f5f8fa;
+    --black: #000000;
 
     --font-head: "Space Grotesk", "Segoe UI", Arial, sans-serif;
     --font-nav: "Source Sans 3", "Segoe UI", Arial, sans-serif;
@@ -266,6 +267,7 @@ main h2 {
     padding: 3rem;
     margin: 2rem;
     border-collapse: collapse;
+    border-radius: 8px;
     background-color: var(--white);
     margin-right: auto;
     overflow: hidden;
@@ -292,5 +294,5 @@ main h2 {
 }
 
 .agree {
-
+    background-color: #d1d1d1;
 }
