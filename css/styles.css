@@ -137,6 +137,7 @@ main h2 {
 .intro-text {
     font-family: var(--font-body);
     font-size: 1.2rem;
+    font-weight: bold;
     line-height: 1.5rem;
     margin: 1rem;
 }
@@ -150,9 +151,9 @@ main h2 {
 .definition {
     font-family: var(--font-body);
     font-size: 1.2rem;
+    font-weight: bold;
     line-height: 1.5rem;
 }
-
 
 
 .definition p {
@@ -258,6 +259,7 @@ main h2 {
     margin: 1rem;
     padding: 1.5rem;
     flex-grow: 1;
+    font-weight: bold;
 }
 
 
@@ -272,6 +274,10 @@ main h2 {
     margin-right: auto;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.comp-heading {
+    color: var(--ink);
 }
 
 .expert-comp th, 
@@ -289,10 +295,30 @@ main h2 {
     font-family: var(--font-body);
 }
 
-.disagree {
-
-}
-
 .agree {
     background-color: #d1d1d1;
 }
+
+/* Question Section */
+
+.questions {
+    font-family: var(--font-body);
+    color: var(--ink);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.questions h3{
+    color: var(--ink);
+}
+
+.quest {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin: 1rem;
+}
+
+/* Footer Section */
