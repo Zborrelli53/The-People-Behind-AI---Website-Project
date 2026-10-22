@@ -76,7 +76,7 @@ main h2 {
     top: 0;
     z-index: 10;
     height: var(--header-height);
-    background-color: var(--ink);
+    background-color: var(--dark-cyan);
     display: flex;
     justify-content: flex-end; /* logo left, nav right */
     align-items: center; /* vertically centered */
@@ -100,6 +100,7 @@ main h2 {
 
 .main-nav a:hover {
     background-color: rgba(255,255,255, 0.1);
+    transition: background-color 0.5s ease;
 }
 
 /* ============= Site Introduciton ===========*/
@@ -115,7 +116,7 @@ main h2 {
 }
 
 .site-intro {
-    border-bottom: 1px solid var(--line);
+    border-bottom: 2px solid var(--ink);
 }
 
 /* ============ INTRODUCTION TO THE AI DOCUMENTARY============ */
@@ -169,7 +170,7 @@ main h2 {
 }
 
 .intro {
-    border-bottom: 3px solid var(--line);
+    border-bottom: 3px solid var(--ink);
     margin-bottom: 5rem;
 }
 
@@ -179,8 +180,15 @@ main h2 {
 /* --------------- 2. Expert Profiles --------------- */
 
 
-.profile {
-    border-bottom: 2px solid var(--line);
+.profiles {
+    max-width: none;
+    padding-inline: max(1.5rem, calc((100% - var(--max-width)) / 2 + 1.5rem));
+    background-color: var(--ink-soft);
+}
+
+.profiles {
+    border-bottom: 3px solid var(--ink);
+    
 }
 
 .card-grid {
@@ -265,6 +273,11 @@ main h2 {
 
 /* -------------------------- COMPARISON (HTML TABLE) ------------------------------ */
 
+.comparison {
+    border-bottom: 2px solid var(--ink);
+    margin-top: 5px;
+}
+
 .expert-comp {
     padding: 3rem;
     margin: 2rem;
@@ -322,3 +335,10 @@ main h2 {
 }
 
 /* Footer Section */
+
+.footer {
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+}
